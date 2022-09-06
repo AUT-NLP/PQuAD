@@ -10,6 +10,7 @@ number of non-Persian words.
 The dataset is divided into three categories including train, validation, and test sets and the 
 statistics of these sets are as follows:
 
+```
 +----------------------------+-------+------------+------+-------+
 |                            | Train | Validation | Test | Total |
 +----------------------------+-------+------------+------+-------+
@@ -19,6 +20,7 @@ statistics of these sets are as follows:
 | Mean # of question tokens  |   10  |     11     |  11  |   10  |
 |  Mean # of answer tokens   |   5   |     6      |  5   |   5   |
 +----------------------------+-------+------------+------+-------+
+```
 
 Workers were encouraged to use paraphrased sentences in their questions and avoid choosing the 
 answers comprising non-Persian words. Another group of crowdworkers validated the questions and 
@@ -35,6 +37,7 @@ evaluated PQuAD using two pre-trained transformer-based language models, namely 
 (Farahani et al., 2021) and XLM-RoBERTa (Conneau et al., 2020), as well as BiDAF (Levy et 
 al., 2017) which is an attention-based model proposed for MRC.
 
+```
 +-------------+------+------+-----------+-----------+-------------+
 |    Model    |  EM  |  F1  | HasAns_EM | HasAns_F1 | NoAns_EM/F1 |
 +-------------+------+------+-----------+-----------+-------------+
@@ -43,6 +46,7 @@ al., 2017) which is an attention-based model proposed for MRC.
 | XLM-RoBERTa | 74.8 | 87.6 |    69.1   |    86.0   |     92.7    |
 |    Human    | 80.3 | 88.3 |    74.9   |    85.6   |     96.8    |
 +-------------+------+------+-----------+-----------+-------------+
+```
 
 PQuAD is developed by Mabna Intelligent Computing at Amirkabir Science and Technology Park with 
 collaboration of the NLP lab of the Amirkabir University of Technology and is supported by the 
