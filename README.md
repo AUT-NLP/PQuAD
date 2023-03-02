@@ -54,18 +54,29 @@ Vice Presidency for Scientific and Technology. By releasing this dataset, we aim
 on Persian reading comprehension and the development of Persian question answering systems.
 
 To use the dataset, please cite the following paper:
+
 https://www.sciencedirect.com/science/article/abs/pii/S0885230823000050
 
 @article{DARVISHI2023101486,
+
 author = {Kasra Darvishi and Newsha Shahbodaghkhan and Zahra Abbasiantaeb and Saeedeh Momtazi},
+
 title = {PQuAD: A Persian question answering dataset},
+
 journal = {Computer Speech & Language},
+
 volume = {80},
+
 pages = {101486},
+
 year = {2023},
+
 issn = {0885-2308},
+
 doi = {https://doi.org/10.1016/j.csl.2023.101486},
+
 url = {https://www.sciencedirect.com/science/article/pii/S0885230823000050}
+
 }
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
